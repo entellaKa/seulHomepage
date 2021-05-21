@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0;}
+.logo{
+  padding: 30px 0; 
+  width: 1.875rem; 
+  height: 1.875rem; 
+  background: #9999cc no-repeat; 
+  float: left;
+}
+ul{list-style: none;}
+.nav{padding: 0 10%;}
+.nav > ul > li {
+  float: left; 
+  width: 19%; 
+}
