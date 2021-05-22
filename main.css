@@ -10,5 +10,7 @@ ul{list-style: none;}
 .nav{padding: 0 10%;}
 .nav > ul > li {
   float: left; 
-  width: 19%; 
+  width: 19%;
 }
+.nav > ul > li > ul {display: none;}
+.nav > ul > li:hover > ul {display: block;}
