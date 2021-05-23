@@ -9,8 +9,18 @@
 ul{list-style: none;}
 .nav{padding: 0 10%;}
 .nav > ul > li {
-  float: left; 
+  float: left;
   width: 19%;
 }
-.nav > ul > li > ul {display: none;}
-.nav > ul > li:hover > ul {display: block;}
+.nav > ul > li > ul {
+  display: none;
+  background: #2d2d2d;
+  color: #ffffff;
+  font-weight: bold;
+}
+.nav > ul > li:hover > ul {
+  display: block;
+  
+  background: #00ffff;
+  color: #ff2222;
+}
