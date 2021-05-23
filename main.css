@@ -11,16 +11,21 @@ ul{list-style: none;}
 .nav > ul > li {
   float: left;
   width: 19%;
+  background: #d2d2d2; 
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
 }
 .nav > ul > li > ul {
   display: none;
-  background: #2d2d2d;
-  color: #ffffff;
-  font-weight: bold;
+  background: #00ffff;
+  color: #ff2222;
+  text-align: left;
 }
 .nav > ul > li:hover > ul {
   display: block;
-  
-  background: #00ffff;
-  color: #ff2222;
+}
+.nav > ul > li > ul > li:hover {
+  background: #ff2222;
+  color: #00ffff;
 }
