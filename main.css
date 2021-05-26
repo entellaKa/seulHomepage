@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+.menu{
+  background-image: url('https://img1.daumcdn.net/thumb/R1920x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile23.uf.tistory.com%2Fimage%2F99C71B385D19D0382DEB24');
+  background-size: 100% 100%;
+  height: 30%;
+}
+.menu:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo{
+  margin: 5px;
+  padding: 20px; 
+  width: 1.875rem; 
+  height: 1.875rem; 
+  background: #9999cc no-repeat; 
+  float: left;
+}
+.nav{padding: 0 10%;}
+.nav > ul > li {
+  float: left;
+  width: 19%;
+  background: #d2d2d2; 
+  font-weight: bold;
+  text-align: center;
+}
+.nav > ul > li > a{color: #000;}
+.nav > ul > li > ul {
+  display: none;
+  background: #aaffff;
+  text-align: left;
+}
+.nav > ul > li > ul > li > a{
+    color: #0000ff;
+}
+.nav > ul > li:hover {
+  background: #2d2d2d;
+}
+.nav > ul > li:hover > a {
+  color: #fff;
+}
+.nav > ul > li:hover > ul {
+  display: block;
+}
+.nav > ul > li > ul > li:hover {
+  background: #0000ff;
+}
+.nav > ul > li > ul > li:hover > a{
+     color: #aaffff;
+}
+#imgSlider{
+  height: 60%;
+  width: 1000%;
+  background: #ffa;
+  overflow-x: hidden;
+}
+.slide{
+  height:300px;
+  overflow:hidden;
+}
+.slide ul{
+  width:calc(100% * 4);
+  display:flex;
+  animation:slide 8s infinite;
+} /* slide를 8초동안 진행하며 무한반복 함 */
+.slide li{
+  width:100%;
+  height:300px;
+}
+.slide li:nth-child(1){background:#ffa;}
+.slide li:nth-child(2){background:#faa;}
+.slide li:nth-child(3){background:#afa;}
+.slide li:nth-child(4){background:#aaf;}
+
+@keyframes slide {
+  0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+  10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+  25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+  35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+  50% {margin-left:-200%;}
+  60% {margin-left:-200%;}
+  75% {margin-left:-300%;}
+  85% {margin-left:-300%;}
+  100% {margin-left:0;}
+}
