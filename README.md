@@ -6,3 +6,6 @@ May/26: re-design menu form
 -set menu background color change
 -logo position change
 -menu background change(bringing other web-link: https://schluss.kr/1329 )
+May/30: insert new tags
+- new contents
+- footer
