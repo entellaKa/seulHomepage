@@ -12,10 +12,11 @@ ul{list-style: none;}
 }
 .logo{
   margin: 5px;
-  padding: 20px; 
-  width: 1.875rem; 
-  height: 1.875rem; 
-  background: #9999cc no-repeat; 
+  padding: 20px;
+  width: 1.875rem;
+  height: 1.875rem;
+  background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/147001952_415505143049359_4846357905221325811_n.jpg?raw=true');
+  background-size: 100%;
   float: left;
 }
 .nav{padding: 0 10%;}
@@ -69,35 +70,42 @@ ul{list-style: none;}
   animation:slide 8s infinite;
 } /* slide를 8초동안 진행하며 무한반복 함 */
 .slide li{
-  margin: 0 350px;
+  margin: 0 6%;
   width: 100%;
   height: 60vw;
+  background-repeat: no-repeat;
 }
-.slide li:nth-child(1){
-  background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/195874629_210115330809604_1964945136345124904_n.jpg?raw=true');
-  background-size: 100%;
+.slide{
+  background: #1af;
 }
-.slide li:nth-child(2){
-  background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/192790903_1738249429700092_3173188901684289986_n.jpg?raw=true');
-  background-size: 100%;
+.slide li:nth-child(1){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/195874629_210115330809604_1964945136345124904_n.jpg?raw=true'); background-size: 100%;
 }
-.slide li:nth-child(3){
-  background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/191315221_552099029493070_7196389414168457932_n.jpg?raw=true');
-  background-size: 100%;
+.slide li:nth-child(2){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/192790903_1738249429700092_3173188901684289986_n.jpg?raw=true'); background-size: 100%;
 }
-.slide li:nth-child(4){
-  background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/191286757_467855651181817_1247828292772728957_n.jpg?raw=true');
-  background-size: 100%;
+.slide li:nth-child(3){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/191315221_552099029493070_7196389414168457932_n.jpg?raw=true'); background-size: 100%;
+}
+.slide li:nth-child(4){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/191286757_467855651181817_1247828292772728957_n.jpg?raw=true'); background-size: 100%;
 }
 
 @keyframes slide {
   0% {margin-left:0;} /* 0 ~ 10  : 정지 */
   10% {margin-left:0;} /* 10 ~ 25 : 변이 */
   25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
-  35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+  35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */  
   50% {margin-left:-200%;}
   60% {margin-left:-200%;}
   75% {margin-left:-300%;}
   85% {margin-left:-300%;}
   100% {margin-left:0;}
+}
+#address{
+  font: 20px Arial, sans-serif;
+}
+#인철이네{
+  font: 15px Arial, sans-serif;
+  color: #00FFFF;
+}
+#슬샘이네{
+  font: 15px Arial, sans-serif;
+  color: #8A2BE2
 }
