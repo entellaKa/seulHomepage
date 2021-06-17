@@ -67,7 +67,7 @@ ul{list-style: none;}
 .slide ul{
   width:calc(100% * 4);
   display:flex;
-  animation:slide 8s infinite;
+  animation:slideImg 8s infinite;
 } /* slide를 8초동안 진행하며 무한반복 함 */
 .slide li{
   margin: 0 6%;
@@ -78,16 +78,16 @@ ul{list-style: none;}
 .slide{
   background: #1af;
 }
-.slide li:nth-child(1){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/195874629_210115330809604_1964945136345124904_n.jpg?raw=true'); background-size: 100%;
+.slide li:nth-child(1){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/img/195874629_210115330809604_1964945136345124904_n.jpg?raw=true'); background-size: 100%;
 }
-.slide li:nth-child(2){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/192790903_1738249429700092_3173188901684289986_n.jpg?raw=true'); background-size: 100%;
+.slide li:nth-child(2){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/img/192790903_1738249429700092_3173188901684289986_n.jpg?raw=true'); background-size: 100%;
 }
-.slide li:nth-child(3){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/191315221_552099029493070_7196389414168457932_n.jpg?raw=true'); background-size: 100%;
+.slide li:nth-child(3){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/img/191315221_552099029493070_7196389414168457932_n.jpg?raw=true'); background-size: 100%;
 }
-.slide li:nth-child(4){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/191286757_467855651181817_1247828292772728957_n.jpg?raw=true'); background-size: 100%;
+.slide li:nth-child(4){ background-image: url('https://github.com/entellaKa/seulHomepage/blob/main/img/191286757_467855651181817_1247828292772728957_n.jpg?raw=true'); background-size: 100%;
 }
 
-@keyframes slide {
+@keyframes slideImg {
   0% {margin-left:0;} /* 0 ~ 10  : 정지 */
   10% {margin-left:0;} /* 10 ~ 25 : 변이 */
   25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
