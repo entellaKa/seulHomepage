@@ -61,6 +61,7 @@ ul{list-style: none;}
   background: #ffa;
   overflow-x: hidden;
 }
+
 .slide{
   overflow:hidden;
 }
@@ -106,8 +107,20 @@ ul{list-style: none;}
   85% {margin-left:-300%;}
   100% {margin-left:0;}
 }
+
+#anni{
+  color: #f00;
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 12 0;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
 #address{
   font: 20px Arial, sans-serif;
+  
 }
 #인철이네{
   font: 15px Arial, sans-serif;
