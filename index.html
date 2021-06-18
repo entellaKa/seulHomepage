@@ -3,7 +3,16 @@
   <head>
     <title>너를 담은 홈페이지</title>
     <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
+    <!--script src="main.js"></script-->
+    <script>
+      window.onload = function(){
+        var today = new Date();
+        var Dday = new Date(2021, 01, 12);
+        var time = today.getTime()-Dday.getTime();
+        var anni = Math.ceil(time/(24*60*60*1000))+1;
+        document.getElementById("anni").innerHTML = "D+"+ anni + "♥"
+      }
+    </script>
   </head>
   <body>
 <!-- Start your code here -->
